@@ -5,6 +5,7 @@ import HomeScreen from './screens/homeScreen/HomeScreen';
 
 import { Container } from 'react-bootstrap'
 import './_app.scss'
+import Loginscreen from './screens/loginScreen/Loginscreen';
 
 
    const App = () => {
@@ -29,6 +30,8 @@ import './_app.scss'
 
          </Container>
       </div>
+
+      <Loginscreen></Loginscreen>
 
 
 

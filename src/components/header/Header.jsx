@@ -5,13 +5,13 @@ import { FaBars } from "react-icons/fa"
 import { AiOutlineSearch } from "react-icons/ai"
 import { MdNotifications, MdApps } from "react-icons/md"
 
-const header = () => {
+const Header = ({ handleToggleSidebar }) => {
   return (
     <div className="header ">
     <FaBars
        className="header__menu"
        size={26}
-      //  onClick={() => handleToggleSidebar()}
+       onClick={() => handleToggleSidebar()}
     />
 
     <img
@@ -39,4 +39,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header
